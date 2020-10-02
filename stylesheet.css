@@ -1,6 +1,24 @@
+body{
+  background-color: #e8ffff;
+  color: #51adcf;
+}
+
+.wikipedia{
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+a{
+  color: #213e3b;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+  text-decoration: underline;
+}
 header{
-    color:#fff;
-    background-color: rgb(134, 227, 243);
+    color: #213e3b;
+    background-color: #e8ffff;
     height: 140px;
     width:100%;
 }
@@ -46,34 +64,32 @@ body{
 .main-title{
     border-bottom:1px solid #000;
     margin:0;
+    color: #7579e7;
 }
-
+.sub-title{
+  color: #0278ae;
+}
 .info{
     height:280px;
-    background-color: rgb(220, 162, 238);
     padding-left: 10px;
 }
 .symptoms{
     height:280px;
-    background-color: rgb(202, 152, 235);
     padding-left: 10px;
 }
 .safety-measures{
     height:280px;
-    background-color: rgb(230, 146, 211);
     padding-left: 10px;
 }
 .zones{
-    background-color: rgb(235, 177, 160);
     padding-left: 10px;
 }
 .stats{
-    background-color: rgb(240, 238, 142);
     padding-left: 10px;
     margin:0;
 }
 .covid{
-    color:red;
+    color:#213e3b;
 }
 
 img{
@@ -101,7 +117,7 @@ table, th, td {
   }
 .footer{
 background-color:rgb(109, 248, 16);
-color:black;
+color: white;
 height:120px;
 width:100%;
 padding-top: 20px;
@@ -180,7 +196,4 @@ padding-bottom: 20px;
 .news-1 , .news-2{
 
     padding-left: 10px;
-}
-.main{
-    background-color: rgb(189, 203, 241);
 }
