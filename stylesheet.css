@@ -1,6 +1,7 @@
 body{
-  color:#fff;
-  background-color: rgb(134, 227, 243);
+
+  background-color: #e8ffff;
+  color: #51adcf;
 }
 
 .wikipedia{
@@ -9,16 +10,21 @@ body{
 }
 
 a{
+/* <<<<<<< master
   text-decoration: none;
-  color: orange;
+  color: orange; */
+/* ======= */
+  color: #213e3b;
+  text-decoration: none;
+/* >>>>>>> master */
 }
 a:hover{
   color: black;
   text-decoration: underline;
 }
 header{
-    color:#fff;
-    background-color: rgb(134, 227, 243);
+    color: #213e3b;
+    background-color: #e8ffff;
     height: 140px;
     width:100%;
 }
@@ -64,8 +70,11 @@ body{
 .main-title{
     border-bottom:1px solid #000;
     margin:0;
+    color: #7579e7;
 }
-
+.sub-title{
+  color: #0278ae;
+}
 .info{
     height:280px;
     padding-left: 10px;
@@ -86,7 +95,11 @@ body{
     margin:0;
 }
 .covid{
+/* <<<<<<< master
     color:brown;
+======= */
+    color:#213e3b;
+/* >>>>>>> master */
 }
 
 img{
@@ -114,7 +127,11 @@ table, th, td {
   }
 .footer{
 background-color:rgb(109, 248, 16);
+/* <<<<<<< master
 color: #fff;
+======= */
+color: white;
+/* >>>>>>> master */
 height:120px;
 width:100%;
 padding-top: 20px;
